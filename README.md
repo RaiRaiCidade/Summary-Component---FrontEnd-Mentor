@@ -29,8 +29,8 @@ Os usuários devem poder:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub)
-- Live Site URL: [Add live site URL here](https://summary-component-front-end-mentor-33u5k3r56-rairaicidade.vercel.app/)
+- Solution URL: [Solução final](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub)
+- Live Site URL: [Site final](https://summary-component-front-end-mentor-33u5k3r56-rairaicidade.vercel.app/)
 
 ## Meu Processo
 
