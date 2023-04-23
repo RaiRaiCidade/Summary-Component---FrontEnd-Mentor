@@ -5,7 +5,7 @@ Essa é uma solução para o projeto do Frontend Mnetor [Results summary compone
 ## Table of contents
 
 - [Overview](#overview)
-  - [The desafio](#o-desafio)
+  - [O desafio](#o-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Meu processo](#meu-processo)
@@ -29,8 +29,8 @@ Os usuários devem poder:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub)
+- Live Site URL: [Add live site URL here](https://summary-component-front-end-mentor-33u5k3r56-rairaicidade.vercel.app/)
 
 ## Meu Processo
 
