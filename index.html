@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./Styles/styles.css"></link>
+    <link rel="stylesheet" href="./Styles/reset.css">
+    </link>
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <section class="main">
+      <section class="card">
+          <p class="card__title">Your Result</p>
+
+          <div class="card__circle">
+            <p class="card__circle-score">76</p>
+            <p class="card__circle-totalScore">of 100</p>
+          </div>  
+
+          <div class="card__definition">
+            <p class="card__definition-text">Great</p>
+          </div>
+          
+          <div class="card__description">
+            <p class="card__description-text">
+              You scored higher than 65% of the <br> people who have taken these tests.
+            </p>
+          </div>
+      </section>
+    
+      <section class="summary">
+        <h1 class="summary__title">Summary</h1>
+
+        <div class="summary__reaction">
+          <img src="./assets/images/icon-reaction.svg" alt="icon of a lightning">
+          <p class="summary__reaction-name">Reaction</p>
+          <p class="summary__reaction-score"><strong class="reaction-score__highlight">80</strong>/100</p>
+        </div>
+
+        <div class="summary__memory">
+          <img src="./assets/images/icon-memory.svg" alt="icon of a brain" class="reaction__icone">
+          <p class="summary__memory-name">Memory</p>
+          <p class="summary__memory-score"><strong class="memory-score__highlight">92</strong>/100</p>
+        </div>
+
+        <div class="summary__verbal">
+          <img src="./assets/images/icon-verbal.svg" alt="icon of a speak ballon">
+          <p class="summary__verbal-name">Verbal</p>
+          <p class="summary__verbal-score"><strong class="verbal-score__highlight">61</strong>/100</p>
+        </div>
+
+        <div class="summary__visual">
+          <img src="./assets/images/icon-visual.svg" alt="icon of a eye">
+          <p class="summary__visual-name">Visual</p>
+          <p class="summary__visual-score"><strong class="visual-score__highlight">72</strong>/100</p>
+        </div>
+
+        <a href="#" class="button">Continue</a>
+      </section>
+    </section>
+  </body>
+  <hr>
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        class="link__footer">Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/RaiRaiCidade" target="_blank" class="link__footer">RaiRai Cidade</a>.
+    </div>
+  </footer> 
+</html>

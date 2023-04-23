@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+:root {
+  --fonte-principal: "Hanken Grotesk", sans-serif;
+  --cor-sessao_1: linear-gradient(
+    180deg,
+    hsla(252, 100%, 67%, 1) 0%,
+    hsla(241, 81%, 54%, 1) 100%
+  );
+  --cor-circulo1: linear-gradient(
+    360deg,
+    hsla(241, 72%, 46%, 1) 0%,
+    hsla(256, 72%, 46%, 1) 100%
+  );
+  --cor-titulo1: hsl(0, 0%, 100%);
+  --cor-texto1: hsl(241, 100%, 89%);
+  --cor-summary: hsl(224, 30%, 27%);
+  --cor-reaction: hsl(0, 100%, 67%);
+  --cor-reactionSection: hsl(0, 100%, 97%);
+  --cor-memory: hsl(39, 100%, 56%);
+  --cor-memorySection: hsl(40, 79%, 96%);
+  --cor-verbal: hsl(166, 100%, 37%);
+  --cor-verbalSection: hsla(166, 51%, 92%, 0.596);
+  --cor-visual: hsl(234, 85%, 45%);
+  --cor-visualSection: hsla(240, 100%, 98%, 0.87);
+  --cor-summaryScore-total: hsl(0, 2%, 67%);
+  --cor-fundoDesktop: hsla(241, 100%, 89%, 0.158);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--cor-sessao_1);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  font-family: var(--fonte-principal);
+  color: var(--cor-texto1);
+  margin: 0;
+  box-shadow: 2px 2px 10px #949393;
+}
+
+.card__title {
+  font-weight: 700;
+  margin: 2em 0 2em 0;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.card__circle {
+  padding: 1.5rem;
+  background: var(--cor-circulo1);
+  border-radius: 50%;
+  width: 27vw;
+  height: 12vh;
+  align-self: center;
+  box-shadow: 5px 5px 70px rgba(42, 52, 139, 0.466);
+}
+
+.card__circle-score {
+  font-weight: 800;
+  color: var(--cor-titulo1);
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+.card__circle-totalScore {
+  font-weight: 700;
+  margin-top: 1em;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.card__definition-text {
+  text-align: center;
+  color: var(--cor-titulo1);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+
+.card__description-text {
+  margin: 1.3em 0 2em 0;
+  text-align: center;
+}
+
+.summary {
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+}
+
+.summary__title {
+  color: var(--cor-summary);
+  margin: 1.5em;
+  font-size: 1.125rem;
+}
+
+.summary__reaction,
+.summary__memory,
+.summary__verbal,
+.summary__visual {
+  display: flex;
+  margin: 1.5em;
+  padding: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 10px #dfdcdc;
+}
+
+.summary__reaction {
+  background-color: var(--cor-reactionSection);
+}
+
+.summary__memory {
+  background-color: var(--cor-memorySection);
+}
+
+.summary__verbal {
+  background-color: var(--cor-verbalSection);
+}
+
+.summary__visual {
+  background-color: var(--cor-visualSection);
+}
+
+.summary__reaction-name,
+.summary__memory-name,
+.summary__verbal-name,
+.summary__visual-name {
+  font-size: 1rem;
+  margin: 0 1em 0 0.5em;
+}
+
+.summary__reaction-name {
+  color: var(--cor-reaction);
+}
+
+.summary__memory-name {
+  color: var(--cor-memory);
+}
+
+.summary__verbal-name {
+  color: var(--cor-verbal);
+}
+
+.summary__visual-name {
+  color: var(--cor-visual);
+}
+
+.summary__reaction-score,
+.summary__memory-score {
+  margin-left: 8.5em;
+  color: var(--cor-summaryScore-total);
+}
+
+.summary__verbal-score,
+.summary__visual-score {
+  margin-left: 9.4em;
+  color: var(--cor-summaryScore-total);
+}
+
+.reaction-score__highlight,
+.memory-score__highlight,
+.verbal-score__highlight,
+.visual-score__highlight {
+  color: var(--cor-summary);
+  margin-right: 0.5em;
+}
+
+.button {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  margin: 1.5em;
+  padding: 1.2rem;
+  background-color: var(--cor-summary);
+  color: var(--cor-titulo1);
+  border-radius: 1.8em;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 5px 5px 10px #d1d1d1;
+}
+
+.button:hover {
+  background: var(--cor-sessao_1);
+  font-weight: 700;
+}
+
+hr {
+  opacity: 0.1;
+  margin-top: 1.5em;
+}
+.attribution {
+  font-family: var(--fonte-principal);
+  color: var(--cor-summary);
+  opacity: 0.8;
+  margin: 1.5em;
+  font-size: 0.7rem;
+}
+
+.link__footer {
+  text-decoration: none;
+  color: var(--cor-sessao_1);
+  font-weight: 800;
+}
+
+.link__footer:hover {
+  color: var(--cor-visual);
+}
+
+@media screen and (min-width: 1440px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    padding: 15rem 15rem;
+    background-color: var(--cor-fundoDesktop);
+  }
+
+  .card {
+    width: 18vw;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+    box-shadow: 1rem 1rem 4rem rgba(42, 52, 139, 0.253);
+  }
+
+  .card__title {
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  .card__circle {
+    padding: 1.5rem;
+    background: var(--cor-circulo1);
+    border-radius: 50%;
+    width: 8vw;
+    height: 15vh;
+  }
+
+  .card__circle-score {
+    align-content: center;
+    margin-top: 0.5em;
+  }
+
+  .card__definition-text {
+    padding-top: 0.5em;
+  }
+
+  .summary {
+    background-color: var(--cor-titulo1);
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    box-shadow: 1rem 1rem 4rem rgba(42, 52, 139, 0.253);
+  }
+
+  .summary__title {
+    font-size: 1.5rem;
+    margin-left: 1em;
+  }
+
+  .summary__reaction,
+  .summary__memory,
+  .summary__verbal,
+  .summary__visual {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    box-shadow: none;
+    margin: 1em 1.5em;
+  }
+
+  .button {
+    box-shadow: none;
+    padding: 0.8em;
+  }
+
+  .attribution,
+  hr,
+  .footer {
+    display: none;
+  }
+}
